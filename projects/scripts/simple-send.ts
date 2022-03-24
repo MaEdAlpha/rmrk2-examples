@@ -31,6 +31,6 @@ export const simpleSend = async () => {
     console.log(`Sent NFT ${nftId} at block: `, block);
     return block;
   } catch (error: any) {
-    console.error(error);
+    console.error("Error8:",error);
   }
 };

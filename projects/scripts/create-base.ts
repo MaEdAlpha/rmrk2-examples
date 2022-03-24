@@ -10,81 +10,154 @@ import { getApi, getKeyringFromUri, getKeys, sendAndFinalize } from "./utils";
 import { Collection, Base } from "rmrk-tools";
 import { u8aToHex } from "@polkadot/util";
 
+//get pinned ipfs src for each image and build your bases. 
 export const fixedParts: IBasePart[] = [
   {
     type: "fixed",
-    id: "chunky_body_1",
-    src: `ipfs://ipfs/${ASSETS_CID}/v1/Chunky_body_v1.svg`,
+    id: "wegland-b_1",
+    src: `ipfs://ipfs/${ASSETS_CID}/v1/b1.svg`,
     z: 0,
   },
   {
     type: "fixed",
-    id: "chunky_body_2",
-    src: `ipfs://ipfs/${ASSETS_CID}/v2/Chunky_body_v2.svg`,
+    id: "wegland-b_2",
+    src: `ipfs://ipfs/${ASSETS_CID}/v2/b2.svg`,
     z: 0,
   },
   {
     type: "fixed",
-    id: "chunky_body_3",
-    src: `ipfs://ipfs/${ASSETS_CID}/v3/Chunky_body_v3.svg`,
+    id: "wegland-b_3",
+    src: `ipfs://ipfs/${ASSETS_CID}/v3/b3.svg`,
     z: 0,
   },
   {
     type: "fixed",
-    id: "chunky_body_4",
-    src: `ipfs://ipfs/${ASSETS_CID}/v4/Chunky_body_v4.svg`,
+    id: "wegland-b_4",
+    src: `ipfs://ipfs/${ASSETS_CID}/v4/b4.svg`,
     z: 0,
   },
   {
     type: "fixed",
-    id: "chunky_head_1",
-    src: `ipfs://ipfs/${ASSETS_CID}/v1/Chunky_head_v1.svg`,
+    id: "wegland-b_5",
+    src: `ipfs://ipfs/${ASSETS_CID}/v5/b5.svg`,
+    z: 0,
+  },
+  {
+    type: "fixed",
+    id: "wegland-b_6",
+    src: `ipfs://ipfs/${ASSETS_CID}/v6/b6.svg`,
+    z: 0,
+  },
+  {
+    type: "fixed",
+    id: "wegland-b_7",
+    src: `ipfs://ipfs/${ASSETS_CID}/v7/b7.svg`,
+    z: 0,
+  },
+  {
+    type: "fixed",
+    id: "wegland-b_8",
+    src: `ipfs://ipfs/${ASSETS_CID}/v8/b8.svg`,
+    z: 0,
+  },
+  {
+    type: "fixed",
+    id: "wegland-ears_1",
+    src: `ipfs://ipfs/${ASSETS_CID}/v1/e1.svg`,
     z: 4,
   },
   {
     type: "fixed",
-    id: "chunky_head_2",
-    src: `ipfs://ipfs/${ASSETS_CID}/v2/Chunky_head_v2.svg`,
+    id: "wegland-ears_2",
+    src: `ipfs://ipfs/${ASSETS_CID}/v2/e2.svg`,
     z: 4,
   },
   {
     type: "fixed",
-    id: "chunky_head_3",
-    src: `ipfs://ipfs/${ASSETS_CID}/v3/Chunky_head_v3.svg`,
+    id: "wegland-ears_3",
+    src: `ipfs://ipfs/${ASSETS_CID}/v3/e3.svg`,
     z: 4,
   },
   {
     type: "fixed",
-    id: "chunky_head_4",
-    src: `ipfs://ipfs/${ASSETS_CID}/v4/Chunky_head_v4.svg`,
+    id: "wegland-ears_4",
+    src: `ipfs://ipfs/${ASSETS_CID}/v4/e4.svg`,
     z: 4,
   },
   {
     type: "fixed",
-    id: "chunky_hand_1",
-    src: `ipfs://ipfs/${ASSETS_CID}/v1/Chunky_hand_v1.svg`,
+    id: "wegland-ears_5",
+    src: `ipfs://ipfs/${ASSETS_CID}/v5/e1.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "wegland-ears_6",
+    src: `ipfs://ipfs/${ASSETS_CID}/v6/e2.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "wegland-ears_7",
+    src: `ipfs://ipfs/${ASSETS_CID}/v7/e3.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "wegland-ears_8",
+    src: `ipfs://ipfs/${ASSETS_CID}/v8/e4.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "wegland_mouth_1",
+    src: `ipfs://ipfs/${ASSETS_CID}/v1/m1.svg`,
     z: 3,
   },
   {
     type: "fixed",
-    id: "chunky_hand_2",
-    src: `ipfs://ipfs/${ASSETS_CID}/v2/Chunky_hand_v2.svg`,
+    id: "wegland_mouth_2",
+    src: `ipfs://ipfs/${ASSETS_CID}/v2/m2.svg`,
     z: 3,
   },
   {
     type: "fixed",
-    id: "chunky_hand_3",
-    src: `ipfs://ipfs/${ASSETS_CID}/v3/Chunky_hand_v3.svg`,
+    id: "wegland_mouth_3",
+    src: `ipfs://ipfs/${ASSETS_CID}/v3/m3.svg`,
     z: 3,
   },
   {
     type: "fixed",
-    id: "chunky_hand_4",
-    src: `ipfs://ipfs/${ASSETS_CID}/v4/Chunky_hand_v4.svg`,
+    id: "wegland_mouth_4",
+    src: `ipfs://ipfs/${ASSETS_CID}/v4/m4.svg`,
+    z: 3,
+  },{
+    type: "fixed",
+    id: "wegland_mouth_5",
+    src: `ipfs://ipfs/${ASSETS_CID}/v5/m1.svg`,
+    z: 3,
+  },
+  {
+    type: "fixed",
+    id: "wegland_mouth_6",
+    src: `ipfs://ipfs/${ASSETS_CID}/v6/m2.svg`,
+    z: 3,
+  },
+  {
+    type: "fixed",
+    id: "wegland_mouth_7",
+    src: `ipfs://ipfs/${ASSETS_CID}/v7/m3.svg`,
+    z: 3,
+  },
+  {
+    type: "fixed",
+    id: "wegland_mouth_8",
+    src: `ipfs://ipfs/${ASSETS_CID}/v8/m4.svg`,
     z: 3,
   },
 ];
 
+//get equiable parts. 'equiappable is a string[] which lets you load each svg item in left or right parts. 
 const getSlotKanariaParts = (equippable: string[] | "*" = []): IBasePart[] => {
   return [
     {
@@ -108,7 +181,8 @@ export const createBase = async () => {
     await cryptoWaitReady();
     const accounts = getKeys();
     const ws = WS_URL;
-    const phrase = process.env.PRIVAKE_KEY;
+    const phrase = process.env.PRIVAKE_KEY; // where do you get this?
+    console.log("This is a phrase:", phrase); // returns '//Alice'
     const api = await getApi(ws);
     const kp = getKeyringFromUri(phrase);
 
@@ -134,8 +208,7 @@ export const createBase = async () => {
     );
     console.log("Chunky Base created at block: ", block);
     return block;
-    return block;
   } catch (error: any) {
-    console.error(error);
+    console.error("Error:",error);
   }
 };

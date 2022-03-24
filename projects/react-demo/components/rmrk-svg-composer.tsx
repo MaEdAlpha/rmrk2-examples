@@ -18,6 +18,7 @@ export const getEquippedInventoryItems = async (
   resources_parts?: IBasePart[],
   children?: NFTConsolidated['children'],
 ) => {
+  //data is fetched from chunky-dump.json and converted to json format. You then pull nft object from json data. type <ConsolidatorReturnType>
   const payload = await fetch('/chunky-dump.json');
   const data: ConsolidatorReturnType = await payload.json();
 

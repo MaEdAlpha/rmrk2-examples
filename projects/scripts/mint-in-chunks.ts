@@ -463,7 +463,7 @@ export const mintInChunksDemo = async () => {
 
     process.exit(0);
   } catch (error: any) {
-    console.error(error);
+    console.error("Error5:",error);
     process.exit(1);
   }
 };

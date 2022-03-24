@@ -89,7 +89,7 @@ export const addBaseResource = async (
     const { block } = await sendAndFinalize(tx, kp);
     console.log("Chunky base resources added at block: ", block);
   } catch (error: any) {
-    console.error(error);
+    console.error("Error3:",error);
   }
 };
 
@@ -137,7 +137,7 @@ export const createChunkyCollection = async () => {
 
     return block;
   } catch (error: any) {
-    console.error(error);
+    console.error("Error24:",error);
   }
 };
 
@@ -199,6 +199,6 @@ export const mintChunky = async () => {
     console.log("Chunky NFT minted at block: ", block);
     return block;
   } catch (error: any) {
-    console.error(error);
+    console.error("Error4:",error);
   }
 };

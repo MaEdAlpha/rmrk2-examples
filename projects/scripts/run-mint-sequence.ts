@@ -11,7 +11,7 @@ export const runMintSequence = async () => {
     await mintItems(chunkiesBlock, baseBlock);
     process.exit(0);
   } catch (error: any) {
-    console.error(error);
+    console.error("Error6:",error);
     process.exit(0);
   }
 };

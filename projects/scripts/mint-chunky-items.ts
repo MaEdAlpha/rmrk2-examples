@@ -161,7 +161,7 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
     console.log("CHUNKY ITEMS RESOURCE ADDED AND SENT: ", resaddSendBlock);
     return true;
   } catch (error: any) {
-    console.error(error);
+    console.error("Error1:", error);
   }
 };
 
@@ -208,6 +208,6 @@ export const createItemsCollection = async () => {
 
     return block;
   } catch (error: any) {
-    console.error(error);
+    console.error("Error2:",error);
   }
 };
