@@ -15,38 +15,38 @@ import {pinSingleMetadataFromDir} from "./pinata-utils";
 
 const chunkyItems = [
   {
-    symbol: "chunky_bone",
-    thumb: "Chunky_bone_thumb.png",
-    resources: ["Chunky_bone_left.svg", "Chunky_bone_right.svg"],
-    name: "The Bone",
-    description: "Chunky likes his bone!",
+    symbol: "wegland_helmet",
+    thumb: "h1_thumb.png",
+    resources: ["h1.svg"],
+    name: "Great Helmet",
+    description: "A Wegland Helmet",
   },
   {
-    symbol: "chunky_flag",
-    thumb: "Chunky_flag_thumb.png",
-    resources: ["Chunky_flag_left.svg", "Chunky_flag_right.svg"],
-    name: "The Flag",
-    description: "Chunky likes his flag!",
+    symbol: "wegland_sheild",
+    thumb: "s1_thumb.png",
+    resources: ["s1.svg"],
+    name: "The Great Shield",
+    description: "Shield good!",
   },
   {
-    symbol: "chunky_pencil",
-    thumb: "Chunky_pencil_thumb.png",
-    resources: ["Chunky_pencil_left.svg", "Chunky_pencil_right.svg"],
-    name: "The Pencil",
-    description: "Chunky likes his pencil!",
+    symbol: "wegland_weapon",
+    thumb: "w1_thumb.png",
+    resources: ["w1.svg"],
+    name: "The Weapon",
+    description: "Pointy end forward!",
   },
   {
-    symbol: "chunky_spear",
-    thumb: "Chunky_spear_thumb.png",
-    resources: ["Chunky_spear_left.svg", "Chunky_spear_right.svg"],
-    name: "The Spear",
-    description: "Chunky likes his spear!",
+    symbol: "wegland_class",
+    thumb: "t1_thumb.png",
+    resources: ["t1.svg"],
+    name: "The breed",
+    description: "I speaks good",
   },
 ];
 
 export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
   try {
-    console.log("CREATE CHUNKY ITEMS START -------");
+    console.log("CREATE MONSTERA ITEMS START -------");
     await cryptoWaitReady();
     const accounts = getKeys();
     const ws = WS_URL;
@@ -77,12 +77,12 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
       const sn = index + 1;
 
       const metadataCid = await pinSingleMetadataFromDir(
-        "/assets/chunky/Chunky Items",
+        "/assets/wegland/Wegland Items",
         item.thumb,
         item.name,
         {
           description: item.description,
-          externalUri: "https://rmrk.app",
+          externalUri: "https://arteralabs.net",
         }
       );
 
@@ -104,7 +104,7 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
     const txs = remarks.map((remark) => api.tx.system.remark(remark));
     const batch = api.tx.utility.batch(txs);
     const { block } = await sendAndFinalize(batch, kp);
-    console.log("CHUNKY ITEMS MINTED AT BLOCK: ", block);
+    console.log("MONSTERA ITEMS MINTED AT BLOCK: ", block);
 
     const resaddSendRemarks = [];
 
@@ -115,7 +115,7 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
         sn: sn.toString().padStart(8, "0"),
         owner: encodeAddress(accounts[0].address, 2),
         transferable: 1,
-        metadata: `ipfs://ipfs/trololo`,
+        metadata: `ipfs://ipfs/falalalalaa`,
         collection: collectionId,
         symbol: item.symbol,
       });
@@ -123,12 +123,13 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
       item.resources.forEach((resource) => {
         resaddSendRemarks.push(
           nft.resadd({
-            src: `ipfs://ipfs/${ASSETS_CID}/Chunky Items/${resource}`,
-            thumb: `ipfs://ipfs/${ASSETS_CID}/Chunky Items/${item.thumb}`,
+            src: `ipfs://ipfs/${ASSETS_CID}/Wegland Items/${resource}`,
+            thumb: `ipfs://ipfs/${ASSETS_CID}/Wegland Items/${item.thumb}`,
             id: nanoid(8),
-            slot: resource.includes("left")
-              ? `${baseEntity.getId()}.chunky_objectLeft`
-              : `${baseEntity.getId()}.chunky_objectRight`,
+            slot: resource.includes("s1") ?  `${baseEntity.getId()}.wegland_objectLeft`
+            : resource.includes("w1") ? `${baseEntity.getId()}.wegland_objectRight`
+            : resource.includes("h1") ? `${baseEntity.getId()}.wegland_objectTop`
+            : `${baseEntity.getId()}.wegland_objectBottom`          
           })
         );
       });
@@ -136,7 +137,7 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
       const chunkyNft = new NFT({
         block: chunkyBlock,
         collection: chunkyCollectionId,
-        symbol: `chunky_${sn}`,
+        symbol: `wegland_${sn}`,
         transferable: 1,
         sn: `${sn}`.padStart(8, "0"),
         owner: encodeAddress(accounts[0].address, 2),
@@ -144,13 +145,10 @@ export const mintItems = async (chunkyBlock: number, baseBlock: number) => {
       });
 
       resaddSendRemarks.push(nft.send(chunkyNft.getId()));
-      resaddSendRemarks.push(
-        nft.equip(
-          `${baseEntity.getId()}.${
-            index % 2 ? "chunky_objectLeft" : "chunky_objectRight"
-          }`
-        )
-      );
+      resaddSendRemarks.push(nft.equip(`${baseEntity.getId()}.${"wegland_objectLeft"}`));
+      resaddSendRemarks.push(nft.equip(`${baseEntity.getId()}.${"wegland_objectRight"}`));
+      resaddSendRemarks.push(nft.equip(`${baseEntity.getId()}.${"wegland_objectTop"}`));
+      resaddSendRemarks.push(nft.equip(`${baseEntity.getId()}.${"wegland_objectBottom"}`));
     });
 
     const restxs = resaddSendRemarks.map((remark) =>

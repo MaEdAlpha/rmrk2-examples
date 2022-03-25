@@ -5,11 +5,11 @@ import { mintItems } from "./mint-chunky-items";
 
 export const runMintSequence = async () => {
   try {
-    const baseBlock = await createBase();
-    const chunkiesBlock = await mintChunky();
-    await addBaseResource(chunkiesBlock, baseBlock);
-    await mintItems(chunkiesBlock, baseBlock);
-    process.exit(0);
+    //const baseBlock = await createBase();
+    //const chunkiesBlock = await mintChunky();
+    //await addBaseResource(31, 6); //chunkiesBlock, baseBlock
+    await mintItems(31, 6);
+     process.exit(0);
   } catch (error: any) {
     console.error("Error6:",error);
     process.exit(0);

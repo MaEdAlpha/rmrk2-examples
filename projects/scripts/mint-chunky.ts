@@ -16,7 +16,7 @@ export const addBaseResource = async (
   baseBlock: number
 ) => {
   try {
-    console.log("ADD BASE RESOURCE TO CHUNKY NFT START -------");
+    console.log("ADD BASE RESOURCE TO MONSTERA NFT START -------");
     await cryptoWaitReady();
     const accounts = getKeys();
     const ws = WS_URL;
@@ -29,7 +29,7 @@ export const addBaseResource = async (
     );
 
     const api = await getApi(ws);
-    const serialNumbers = [1, 2, 3, 4];
+    const serialNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
     const baseEntity = new Base(
       baseBlock,
@@ -46,7 +46,7 @@ export const addBaseResource = async (
       const nft = new NFT({
         block: chunkyBlock,
         collection: collectionId,
-        symbol: `chunky_${sn}`,
+        symbol: `wegland_${sn}`,
         transferable: 1,
         sn: `${sn}`.padStart(8, "0"),
         owner: encodeAddress(accounts[0].address, 2),
@@ -60,22 +60,25 @@ export const addBaseResource = async (
           base: BASE_ID,
           id: baseResId,
           parts: [
-            `chunky_body_${sn}`,
-            `chunky_head_${sn}`,
-            `chunky_hand_${sn}`,
-            "chunky_objectLeft",
-            "chunky_objectRight",
+            `wegland-b_${sn}`,
+            `wegland-ears_${sn}`,
+            `wegland_mouth_${sn}`,
+            `text_${sn}`,
+            "wegland_objectLeft",
+            "wegland_objectRight",
+            "wegland_objectTop",
+            "wegland_objectBottom",
           ],
-          thumb: `ipfs://ipfs/${ASSETS_CID}/Chunky%20Preview.png`,
+          thumb: `ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera%20Preview.png`, //CHANGE BACK ipfs://ipfs/${ASSETS_CID}/Chunky%20Preview.png
         })
       );
 
-      if (sn === 4) {
+      if (sn === 8) {
         const secondaryArtResId = nanoid(8);
         resourceRemarks.push(
           nft.resadd({
-            src: `ipfs://ipfs/${ASSETS_CID}/chunky_altresource.jpg`,
-            thumb: `ipfs://ipfs/${ASSETS_CID}/chunky_altresource.jpg`,
+            src: `ipfs://ipfs/${ASSETS_CID}/alternate-resource.jpg`,
+            thumb: `ipfs://ipfs/${ASSETS_CID}/alternate-resource_altresource.jpg`,
             id: secondaryArtResId,
           })
         );
@@ -87,7 +90,7 @@ export const addBaseResource = async (
     const txs = resourceRemarks.map((remark) => api.tx.system.remark(remark));
     const tx = api.tx.utility.batch(txs);
     const { block } = await sendAndFinalize(tx, kp);
-    console.log("Chunky base resources added at block: ", block);
+    console.log("Artera base resources added at block: ", block);
   } catch (error: any) {
     console.error("Error3:",error);
   }
@@ -95,7 +98,7 @@ export const addBaseResource = async (
 
 export const createChunkyCollection = async () => {
   try {
-    console.log("CREATE CHUNKY COLLECTION START -------");
+    console.log("CREATE WEGLAND COLLECTION START -------");
     await cryptoWaitReady();
     const accounts = getKeys();
     const ws = WS_URL;
@@ -109,12 +112,12 @@ export const createChunkyCollection = async () => {
     );
 
     const collectionMetadataCid = await pinSingleMetadataFromDir(
-      "/assets/chunky",
-      "Chunky Preview.png",
-      "RMRK2 demo chunky collection",
+      "/assets/wegland",
+      "Monstera Preview.png",
+      "Monstera demo Wegland collection",
       {
-        description: "This is Chunky! RMRK2 demo nested NFT",
-        externalUri: "https://rmrk.app",
+        description: "Weglanders! RMRK2 demo nested NFT",
+        externalUri: "https://arteralabs.net",
         properties: {},
       }
     );
@@ -133,7 +136,7 @@ export const createChunkyCollection = async () => {
       kp
     );
     console.log("COLLECTION CREATION REMARK: ", ItemsCollection.create());
-    console.log("Chunky collection created at block: ", block);
+    console.log("Wegland collection created at block: ", block);
 
     return block;
   } catch (error: any) {
@@ -143,7 +146,7 @@ export const createChunkyCollection = async () => {
 
 export const mintChunky = async () => {
   try {
-    console.log("CREATE CHUNKY NFT START -------");
+    console.log("CREATE MONSTERA NFT START -------");
     await cryptoWaitReady();
     const accounts = getKeys();
     const ws = WS_URL;
@@ -159,20 +162,20 @@ export const mintChunky = async () => {
 
     const api = await getApi(ws);
 
-    const serialNumbers = [1, 2, 3, 4];
+    const serialNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
     const promises = serialNumbers.map(async (sn) => {
       const metadataCid = await pinSingleMetadataFromDir(
-        "/assets/chunky",
-        "Chunky Preview.png",
-        `RMRK2 demo chunky NFT #${sn}`,
+        "/assets/wegland",
+        "Monstera Preview.png",
+        `RMRK2 demo ARTERA NFT #${sn}`,
         {
-          description: `This is Chunky #${sn}! RMRK2 demo nested NFT`,
-          externalUri: "https://rmrk.app",
+          description: `This is WEGLAND #${sn}! RMRK2 demo nested NFT`,
+          externalUri: "https://arteralabs.net",
           properties: {
             rarity: {
               type: "string",
-              value: sn === 4 ? "epic" : "common",
+              value: sn === 8 ? "epic" : "common",
             },
           },
         }
@@ -181,7 +184,7 @@ export const mintChunky = async () => {
       const nft = new NFT({
         block: 0,
         collection: collectionId,
-        symbol: `chunky_${sn}`,
+        symbol: `wegland_${sn}`,
         transferable: 1,
         sn: `${sn}`.padStart(8, "0"),
         owner: encodeAddress(accounts[0].address, 2),
@@ -196,9 +199,9 @@ export const mintChunky = async () => {
     const txs = remarks.map((remark) => api.tx.system.remark(remark));
     const tx = api.tx.utility.batchAll(txs);
     const { block } = await sendAndFinalize(tx, kp);
-    console.log("Chunky NFT minted at block: ", block);
+    console.log("Wegland NFT minted at block: ", block);
     return block;
-  } catch (error: any) {
+  } catch (error: any) { 
     console.error("Error4:",error);
   }
 };

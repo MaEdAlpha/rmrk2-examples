@@ -14,99 +14,99 @@ import { u8aToHex } from "@polkadot/util";
 export const fixedParts: IBasePart[] = [
   {
     type: "fixed",
-    id: "wegland-b_1",
+    id: "wegland_body_1",
     src: `ipfs://ipfs/${ASSETS_CID}/v1/b1.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_2",
+    id: "wegland_body_2",
     src: `ipfs://ipfs/${ASSETS_CID}/v2/b2.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_3",
+    id: "wegland_body_3",
     src: `ipfs://ipfs/${ASSETS_CID}/v3/b3.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_4",
+    id: "wegland_body_4",
     src: `ipfs://ipfs/${ASSETS_CID}/v4/b4.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_5",
+    id: "wegland_body_5",
     src: `ipfs://ipfs/${ASSETS_CID}/v5/b5.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_6",
+    id: "wegland_body_6",
     src: `ipfs://ipfs/${ASSETS_CID}/v6/b6.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_7",
+    id: "wegland_body_7",
     src: `ipfs://ipfs/${ASSETS_CID}/v7/b7.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-b_8",
+    id: "wegland_body_8",
     src: `ipfs://ipfs/${ASSETS_CID}/v8/b8.svg`,
-    z: 0,
+    z: 1,
   },
   {
     type: "fixed",
-    id: "wegland-ears_1",
+    id: "wegland_eyes_1",
     src: `ipfs://ipfs/${ASSETS_CID}/v1/e1.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_2",
+    id: "wegland_eyes_2",
     src: `ipfs://ipfs/${ASSETS_CID}/v2/e2.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_3",
+    id: "wegland_eyes_3",
     src: `ipfs://ipfs/${ASSETS_CID}/v3/e3.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_4",
+    id: "wegland_eyes_4",
     src: `ipfs://ipfs/${ASSETS_CID}/v4/e4.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_5",
+    id: "wegland_eyes_5",
     src: `ipfs://ipfs/${ASSETS_CID}/v5/e1.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_6",
+    id: "wegland_eyes_6",
     src: `ipfs://ipfs/${ASSETS_CID}/v6/e2.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_7",
+    id: "wegland_eyes_7",
     src: `ipfs://ipfs/${ASSETS_CID}/v7/e3.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
-    id: "wegland-ears_8",
+    id: "wegland_eyes_8",
     src: `ipfs://ipfs/${ASSETS_CID}/v8/e4.svg`,
-    z: 4,
+    z: 2,
   },
   {
     type: "fixed",
@@ -155,22 +155,89 @@ export const fixedParts: IBasePart[] = [
     src: `ipfs://ipfs/${ASSETS_CID}/v8/m4.svg`,
     z: 3,
   },
+  {
+    type: "fixed",
+    id: "text_1",
+    src: `ipfs://ipfs/${ASSETS_CID}/v1/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_2",
+    src: `ipfs://ipfs/${ASSETS_CID}/v2/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_3",
+    src: `ipfs://ipfs/${ASSETS_CID}/v3/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_4",
+    src: `ipfs://ipfs/${ASSETS_CID}/v4/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_5",
+    src: `ipfs://ipfs/${ASSETS_CID}/v5/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_6",
+    src: `ipfs://ipfs/${ASSETS_CID}/v6/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_7",
+    src: `ipfs://ipfs/${ASSETS_CID}/v7/text.svg`,
+    z: 4,
+  },
+  {
+    type: "fixed",
+    id: "text_8",
+    src: `ipfs://ipfs/${ASSETS_CID}/v8/text.svg`,
+    z: 4,
+  },
 ];
 
 //get equiable parts. 'equiappable is a string[] which lets you load each svg item in left or right parts. 
+//can set a default item by adding src: property. Will fall back on this asset if nothing is assigned. (possibly use for card text);
 const getSlotKanariaParts = (equippable: string[] | "*" = []): IBasePart[] => {
   return [
     {
-      type: "slot",
-      id: "chunky_objectLeft",
+      type:"slot",
+      id:"wegland_objectBackground",
       equippable,
-      z: 1,
+      z: 0
     },
     {
       type: "slot",
-      id: "chunky_objectRight",
+      id: "wegland_objectLeft", //sheild
       equippable,
-      z: 2,
+      z: 6,
+    },
+    {
+      type: "slot",
+      id: "wegland_objectRight", //weapon
+      equippable,
+      z: 7,
+    },
+    {
+      type: "slot",
+      id: "wegland_objectTop", //helmet
+      equippable,
+      z: 5,
+    },
+    {
+      type: "slot",
+      id: "wegland_objectBottom", //Name
+      equippable,
+      z: 8,
     },
   ];
 };
@@ -181,8 +248,7 @@ export const createBase = async () => {
     await cryptoWaitReady();
     const accounts = getKeys();
     const ws = WS_URL;
-    const phrase = process.env.PRIVAKE_KEY; // where do you get this?
-    console.log("This is a phrase:", phrase); // returns '//Alice'
+    const phrase = process.env.PRIVAKE_KEY; // basic dev keystore set to Alice Mnemonic
     const api = await getApi(ws);
     const kp = getKeyringFromUri(phrase);
 
@@ -190,14 +256,16 @@ export const createBase = async () => {
       u8aToHex(accounts[0].publicKey),
       CHUNKY_ITEMS_COLLECTION_SYMBOL
     );
+
     console.log("collectionId", collectionId);
 
     const baseParts = [...fixedParts, ...getSlotKanariaParts([collectionId])];
-
+    
+    //creates the base
     const baseEntity = new Base(
       0,
       CHUNKY_BASE_SYMBOL,
-      encodeAddress(kp.address, 2),
+      encodeAddress(kp.address, 2), //convert to Kusama formate) ss58Format:2
       "svg",
       baseParts
     );
@@ -206,7 +274,7 @@ export const createBase = async () => {
       api.tx.system.remark(baseEntity.base()),
       kp
     );
-    console.log("Chunky Base created at block: ", block);
+    console.log("Base created at block: ", block);
     return block;
   } catch (error: any) {
     console.error("Error:",error);

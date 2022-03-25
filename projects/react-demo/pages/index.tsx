@@ -45,7 +45,8 @@ const Home: NextPage = () => {
 
       <Box mb={6}>
         <SimpleGrid columns={[2, 4]} spacing={4}>
-          {nfts.filter(nft => nft.collection === 'd43593c715a56da27d-CHNK').map((nft, index) => (
+          {/* replace this: d43593c715a56da27d-CHNK with d43593c715a56da27d-WGL */}
+          {nfts.filter(nft => nft.collection === 'd43593c715a56da27d-WGL').map((nft, index) => (
             <Box key={nft.id} minW={400} borderWidth={1} borderColor={'white'} borderStyle={'solid'} borderRadius={10} backgroundColor={index % 2 ? 'blue.500' : 'yellow.500'} position={'relative'}>
               <Badge position={'absolute'} top={4} right={4} colorScheme={'gray.600'}>{nft.sn.slice(nft.sn.length - 4)}</Badge>
               <SvgResourceComposer nft={nft} />
