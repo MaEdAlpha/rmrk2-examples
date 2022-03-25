@@ -60,14 +60,15 @@ export const addBaseResource = async (
           base: BASE_ID,
           id: baseResId,
           parts: [
-            `wegland-b_${sn}`,
-            `wegland-ears_${sn}`,
+            `wegland_body_${sn}`,
+            `wegland_eyes_${sn}`,
             `wegland_mouth_${sn}`,
             `text_${sn}`,
-            "wegland_objectLeft",
-            "wegland_objectRight",
-            "wegland_objectTop",
-            "wegland_objectBottom",
+            `wegland_objectBackground`,
+            `wegland_objectLeft`,
+            `wegland_objectRight`,
+            `wegland_objectTop`,
+            `wegland_objectBottom`,
           ],
           thumb: `ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera%20Preview.png`, //CHANGE BACK ipfs://ipfs/${ASSETS_CID}/Chunky%20Preview.png
         })
@@ -180,7 +181,7 @@ export const mintChunky = async () => {
           },
         }
       );
-
+      //creates the final nft base. This adds the base json data. Children appended in mintItems
       const nft = new NFT({
         block: 0,
         collection: collectionId,

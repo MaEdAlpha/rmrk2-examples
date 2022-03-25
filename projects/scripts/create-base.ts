@@ -211,7 +211,7 @@ const getSlotKanariaParts = (equippable: string[] | "*" = []): IBasePart[] => {
   return [
     {
       type:"slot",
-      id:"wegland_objectBackground",
+      id:"wegland_objectBackground", //background
       equippable,
       z: 0
     },
