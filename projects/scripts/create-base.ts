@@ -277,6 +277,6 @@ export const createBase = async () => {
     console.log("Base created at block: ", block);
     return block;
   } catch (error: any) {
-    console.error("Error:",error);
+    console.error("Error0:",error);
   }
 };

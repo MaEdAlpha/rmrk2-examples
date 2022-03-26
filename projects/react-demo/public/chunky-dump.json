@@ -1,13 +1,13 @@
 {
   "nfts": {
-    "18-d43593c715a56da27d-WGL-wegland_1-00000001": {
+    "11-d43593c715a56da27d-WGL-wegland_1-00000001": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "7oHzfDWO",
-          "base": "base-3-WGLBS",
+          "id": "qipT8_Rn",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_1",
             "wegland_eyes_1",
@@ -22,13 +22,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_1",
       "transferable": 1,
       "sn": "00000001",
       "metadata": "ipfs://ipfs/bafkreia7y7fxamq4ssnfydcbumaoyuz5kt46yv4writs3tlx5ew7wpbsgy",
-      "priority": ["7oHzfDWO"],
+      "priority": ["qipT8_Rn"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -36,16 +36,16 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_1-00000001"
+      "id": "11-d43593c715a56da27d-WGL-wegland_1-00000001"
     },
-    "18-d43593c715a56da27d-WGL-wegland_2-00000002": {
+    "11-d43593c715a56da27d-WGL-wegland_2-00000002": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "Z4JtArz6",
-          "base": "base-3-WGLBS",
+          "id": "Mmeg8IbE",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_2",
             "wegland_eyes_2",
@@ -60,13 +60,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_2",
       "transferable": 1,
       "sn": "00000002",
       "metadata": "ipfs://ipfs/bafkreicw66k4coltihfncfeq2ekzieww2m5dytubrz2d3sutxu24z5eela",
-      "priority": ["Z4JtArz6"],
+      "priority": ["Mmeg8IbE"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -74,16 +74,16 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_2-00000002"
+      "id": "11-d43593c715a56da27d-WGL-wegland_2-00000002"
     },
-    "18-d43593c715a56da27d-WGL-wegland_3-00000003": {
+    "11-d43593c715a56da27d-WGL-wegland_3-00000003": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "99JaXmro",
-          "base": "base-3-WGLBS",
+          "id": "j67YGu1E",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_3",
             "wegland_eyes_3",
@@ -98,13 +98,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_3",
       "transferable": 1,
       "sn": "00000003",
       "metadata": "ipfs://ipfs/bafkreihj3x7rneemkahonounfp3snqf55tn4uglhzwos6g34mpg4t5vzum",
-      "priority": ["99JaXmro"],
+      "priority": ["j67YGu1E"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -112,16 +112,16 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_3-00000003"
+      "id": "11-d43593c715a56da27d-WGL-wegland_3-00000003"
     },
-    "18-d43593c715a56da27d-WGL-wegland_4-00000004": {
+    "11-d43593c715a56da27d-WGL-wegland_4-00000004": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "g9V80Pry",
-          "base": "base-3-WGLBS",
+          "id": "5BC2wch2",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_4",
             "wegland_eyes_4",
@@ -136,13 +136,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_4",
       "transferable": 1,
       "sn": "00000004",
       "metadata": "ipfs://ipfs/bafkreigfouhhowck6mfug7meh3h2d3eluyoaxlnl3nlymrscsc76shyxji",
-      "priority": ["g9V80Pry"],
+      "priority": ["5BC2wch2"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -150,16 +150,16 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_4-00000004"
+      "id": "11-d43593c715a56da27d-WGL-wegland_4-00000004"
     },
-    "18-d43593c715a56da27d-WGL-wegland_5-00000005": {
+    "11-d43593c715a56da27d-WGL-wegland_5-00000005": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "jPoosXwL",
-          "base": "base-3-WGLBS",
+          "id": "ei7JFDhg",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_5",
             "wegland_eyes_5",
@@ -174,13 +174,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_5",
       "transferable": 1,
       "sn": "00000005",
       "metadata": "ipfs://ipfs/bafkreibi36ux2vo5uoadaqmqthhhicrpptocfwk3ekznex4m4z7fej6ea4",
-      "priority": ["jPoosXwL"],
+      "priority": ["ei7JFDhg"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -188,16 +188,16 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_5-00000005"
+      "id": "11-d43593c715a56da27d-WGL-wegland_5-00000005"
     },
-    "18-d43593c715a56da27d-WGL-wegland_6-00000006": {
+    "11-d43593c715a56da27d-WGL-wegland_6-00000006": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "tmAwNhS9",
-          "base": "base-3-WGLBS",
+          "id": "EhJoIHBL",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_6",
             "wegland_eyes_6",
@@ -212,13 +212,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_6",
       "transferable": 1,
       "sn": "00000006",
       "metadata": "ipfs://ipfs/bafkreia6vhnjh66tjq6v2xrxeiu7ufk2c2b6ow3vllcxu2zigpj7swez3y",
-      "priority": ["tmAwNhS9"],
+      "priority": ["EhJoIHBL"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -226,16 +226,16 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_6-00000006"
+      "id": "11-d43593c715a56da27d-WGL-wegland_6-00000006"
     },
-    "18-d43593c715a56da27d-WGL-wegland_7-00000007": {
+    "11-d43593c715a56da27d-WGL-wegland_7-00000007": {
       "changes": [],
       "children": [],
       "resources": [
         {
           "pending": false,
-          "id": "NuaebXpR",
-          "base": "base-3-WGLBS",
+          "id": "PwDp5N8Y",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_7",
             "wegland_eyes_7",
@@ -250,13 +250,13 @@
           "thumb": "ipfs://ipfs/QmXfJWDrWKEhYz5Ys1UcEdaC4uUa8t6Nq4VgdSLbgeojFr/Monstera Preview.png"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_7",
       "transferable": 1,
       "sn": "00000007",
       "metadata": "ipfs://ipfs/bafkreiaviotd7quzh3gexp42iuqckcsk4sij4jowfirdsga3kae4uxdkqe",
-      "priority": ["NuaebXpR"],
+      "priority": ["PwDp5N8Y"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -264,42 +264,42 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_7-00000007"
+      "id": "11-d43593c715a56da27d-WGL-wegland_7-00000007"
     },
-    "18-d43593c715a56da27d-WGL-wegland_8-00000008": {
+    "11-d43593c715a56da27d-WGL-wegland_8-00000008": {
       "changes": [],
       "children": [
         {
-          "id": "29-d43593c715a56da27d-WGLITMS-wegland_helmet-00000001",
+          "id": "22-d43593c715a56da27d-WGLITMS-wegland_helmet-00000001",
           "pending": false,
-          "equipped": "base-3-WGLBS.wegland_objectTop"
+          "equipped": "base-2-WGLBS.wegland_objectTop"
         },
         {
-          "id": "29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002",
+          "id": "22-d43593c715a56da27d-WGLITMS-wegland_shield-00000002",
           "pending": false,
-          "equipped": ""
+          "equipped": "base-2-WGLBS.wegland_objectLeft"
         },
         {
-          "id": "29-d43593c715a56da27d-WGLITMS-wegland_weapon-00000003",
+          "id": "22-d43593c715a56da27d-WGLITMS-wegland_weapon-00000003",
           "pending": false,
-          "equipped": "base-3-WGLBS.wegland_objectRight"
+          "equipped": "base-2-WGLBS.wegland_objectRight"
         },
         {
-          "id": "29-d43593c715a56da27d-WGLITMS-wegland_class-00000004",
+          "id": "22-d43593c715a56da27d-WGLITMS-wegland_class-00000004",
           "pending": false,
-          "equipped": "base-3-WGLBS.wegland_objectBottom"
+          "equipped": "base-2-WGLBS.wegland_objectBottom"
         },
         {
-          "id": "29-d43593c715a56da27d-WGLITMS-wegland_background-00000005",
+          "id": "22-d43593c715a56da27d-WGLITMS-wegland_background-00000005",
           "pending": false,
-          "equipped": "base-3-WGLBS.wegland_objectBackground"
+          "equipped": "base-2-WGLBS.wegland_objectBackground"
         }
       ],
       "resources": [
         {
           "pending": false,
-          "id": "bnd1knat",
-          "base": "base-3-WGLBS",
+          "id": "u7RNVO_Q",
+          "base": "base-2-WGLBS",
           "parts": [
             "wegland_body_8",
             "wegland_eyes_8",
@@ -315,18 +315,18 @@
         },
         {
           "pending": false,
-          "id": "q_stEzez",
+          "id": "Vsj-1VXa",
           "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/alternate-resource.jpg",
           "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/alternate-resource_altresource.jpg"
         }
       ],
-      "block": 18,
+      "block": 11,
       "collection": "d43593c715a56da27d-WGL",
       "symbol": "wegland_8",
       "transferable": 1,
       "sn": "00000008",
       "metadata": "ipfs://ipfs/bafkreiddusf6lzqblithfn67f6qdbrq2magnruysw2365242vmwwgvd2li",
-      "priority": ["q_stEzez", "bnd1knat"],
+      "priority": ["Vsj-1VXa", "u7RNVO_Q"],
       "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
@@ -334,72 +334,72 @@
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "18-d43593c715a56da27d-WGL-wegland_8-00000008"
+      "id": "11-d43593c715a56da27d-WGL-wegland_8-00000008"
     },
-    "29-d43593c715a56da27d-WGLITMS-wegland_helmet-00000001": {
+    "22-d43593c715a56da27d-WGLITMS-wegland_helmet-00000001": {
       "changes": [
         {
           "field": "owner",
           "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "new": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
-          "new": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "old": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
-          "new": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "old": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "new": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
-          "new": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "old": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "new": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
-          "new": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "old": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "new": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
-          "new": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "old": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "new": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
-          "new": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "old": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "new": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
-          "new": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+          "old": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "new": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         }
       ],
@@ -407,150 +407,92 @@
       "resources": [
         {
           "pending": false,
-          "id": "w7CXkfin",
+          "id": "ycKPr2lS",
           "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "62k6ChgB",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "5xeh_wak",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "bLLPrCip",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "TW8VyHV3",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "dwHL-XGN",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "LlH9jM_S",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "tBsF-vix",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1.svg",
-          "slot": "base-3-WGLBS.wegland_objectTop",
+          "slot": "base-2-WGLBS.wegland_objectTop",
           "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/h1_thumb.png"
         }
       ],
-      "block": 29,
+      "block": 22,
       "collection": "d43593c715a56da27d-WGLITMS",
       "symbol": "wegland_helmet",
       "transferable": 1,
       "sn": "00000001",
       "metadata": "ipfs://ipfs/bafkreidxscyz2rqlvyuy34r6p4upt6kuvpqaw4zt6sil5a7keq6u3tqy3q",
-      "priority": [
-        "w7CXkfin",
-        "62k6ChgB",
-        "5xeh_wak",
-        "bLLPrCip",
-        "TW8VyHV3",
-        "dwHL-XGN",
-        "LlH9jM_S",
-        "tBsF-vix"
-      ],
-      "owner": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+      "priority": ["ycKPr2lS"],
+      "owner": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
       "forsale": "0",
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "29-d43593c715a56da27d-WGLITMS-wegland_helmet-00000001"
+      "id": "22-d43593c715a56da27d-WGLITMS-wegland_helmet-00000001"
     },
-    "29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002": {
+    "22-d43593c715a56da27d-WGLITMS-wegland_shield-00000002": {
       "changes": [
         {
           "field": "owner",
           "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "new": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
-          "new": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "old": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
-          "new": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "old": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "new": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
-          "new": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "old": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "new": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
-          "new": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "old": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "new": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
-          "new": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "old": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "new": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
-          "new": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "old": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "new": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
-          "new": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+          "old": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "new": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         }
       ],
@@ -558,150 +500,92 @@
       "resources": [
         {
           "pending": false,
-          "id": "h_VwEvay",
+          "id": "as4Waq7U",
           "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "fsyog8UG",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "MZtyNJy6",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "qun6gJAK",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "xfOioEUz",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "gZKAK8sz",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "J0OuuPXN",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "n82Sww6a",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1.svg",
-          "slot": "base-3-WGLBS.wegland_objectLeft",
+          "slot": "base-2-WGLBS.wegland_objectLeft",
           "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/s1_thumb.png"
         }
       ],
-      "block": 29,
+      "block": 22,
       "collection": "d43593c715a56da27d-WGLITMS",
       "symbol": "wegland_shield",
       "transferable": 1,
       "sn": "00000002",
       "metadata": "ipfs://ipfs/bafkreigyfmiblgpiry7ok7bkp53yqcoanvg6wxapapmghlnj6j74rshveu",
-      "priority": [
-        "h_VwEvay",
-        "fsyog8UG",
-        "MZtyNJy6",
-        "qun6gJAK",
-        "xfOioEUz",
-        "gZKAK8sz",
-        "J0OuuPXN",
-        "n82Sww6a"
-      ],
-      "owner": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+      "priority": ["as4Waq7U"],
+      "owner": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
       "forsale": "0",
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002"
+      "id": "22-d43593c715a56da27d-WGLITMS-wegland_shield-00000002"
     },
-    "29-d43593c715a56da27d-WGLITMS-wegland_weapon-00000003": {
+    "22-d43593c715a56da27d-WGLITMS-wegland_weapon-00000003": {
       "changes": [
         {
           "field": "owner",
           "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "new": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
-          "new": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "old": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
-          "new": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "old": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "new": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
-          "new": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "old": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "new": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
-          "new": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "old": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "new": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
-          "new": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "old": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "new": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
-          "new": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "old": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "new": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
-          "new": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+          "old": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "new": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         }
       ],
@@ -709,150 +593,92 @@
       "resources": [
         {
           "pending": false,
-          "id": "bUdnoZBt",
+          "id": "l1sFXO-j",
           "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "S6mMc0WU",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "uIx0Mzfg",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "4K4PnLrW",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "_dnPn6rb",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "HXNtu8i4",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "fzxUl3sV",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "F0r7_MB4",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1.svg",
-          "slot": "base-3-WGLBS.wegland_objectRight",
+          "slot": "base-2-WGLBS.wegland_objectRight",
           "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/w1_thumb.png"
         }
       ],
-      "block": 29,
+      "block": 22,
       "collection": "d43593c715a56da27d-WGLITMS",
       "symbol": "wegland_weapon",
       "transferable": 1,
       "sn": "00000003",
       "metadata": "ipfs://ipfs/bafkreidambsximeftkvkwqdal36dyhmv3vexomtcwf4ys7fi7stlv42nau",
-      "priority": [
-        "bUdnoZBt",
-        "S6mMc0WU",
-        "uIx0Mzfg",
-        "4K4PnLrW",
-        "_dnPn6rb",
-        "HXNtu8i4",
-        "fzxUl3sV",
-        "F0r7_MB4"
-      ],
-      "owner": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+      "priority": ["l1sFXO-j"],
+      "owner": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
       "forsale": "0",
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "29-d43593c715a56da27d-WGLITMS-wegland_weapon-00000003"
+      "id": "22-d43593c715a56da27d-WGLITMS-wegland_weapon-00000003"
     },
-    "29-d43593c715a56da27d-WGLITMS-wegland_class-00000004": {
+    "22-d43593c715a56da27d-WGLITMS-wegland_class-00000004": {
       "changes": [
         {
           "field": "owner",
           "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "new": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
-          "new": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "old": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
-          "new": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "old": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "new": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
-          "new": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "old": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "new": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
-          "new": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "old": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "new": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
-          "new": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "old": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "new": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
-          "new": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "old": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "new": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
-          "new": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+          "old": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "new": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         }
       ],
@@ -860,150 +686,92 @@
       "resources": [
         {
           "pending": false,
-          "id": "WQQYVQks",
+          "id": "J9_cJEbf",
           "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "kGi9Zz15",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "t03hFhi2",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "byKo5vt5",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "Owl0QpBp",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "YFYv_isA",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "cQsLitHK",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "M-Iys6aS",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBottom",
+          "slot": "base-2-WGLBS.wegland_objectBottom",
           "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/t1_thumb.png"
         }
       ],
-      "block": 29,
+      "block": 22,
       "collection": "d43593c715a56da27d-WGLITMS",
       "symbol": "wegland_class",
       "transferable": 1,
       "sn": "00000004",
       "metadata": "ipfs://ipfs/bafkreidoaddme6kzgljk66iuxagl27jirpz6vkqx5326dvfvepo4lq342u",
-      "priority": [
-        "WQQYVQks",
-        "kGi9Zz15",
-        "t03hFhi2",
-        "byKo5vt5",
-        "Owl0QpBp",
-        "YFYv_isA",
-        "cQsLitHK",
-        "M-Iys6aS"
-      ],
-      "owner": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+      "priority": ["J9_cJEbf"],
+      "owner": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
       "forsale": "0",
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "29-d43593c715a56da27d-WGLITMS-wegland_class-00000004"
+      "id": "22-d43593c715a56da27d-WGLITMS-wegland_class-00000004"
     },
-    "29-d43593c715a56da27d-WGLITMS-wegland_background-00000005": {
+    "22-d43593c715a56da27d-WGLITMS-wegland_background-00000005": {
       "changes": [
         {
           "field": "owner",
           "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "new": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_1-00000001",
-          "new": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "old": "11-d43593c715a56da27d-WGL-wegland_1-00000001",
+          "new": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_2-00000002",
-          "new": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "old": "11-d43593c715a56da27d-WGL-wegland_2-00000002",
+          "new": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_3-00000003",
-          "new": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "old": "11-d43593c715a56da27d-WGL-wegland_3-00000003",
+          "new": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_4-00000004",
-          "new": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "old": "11-d43593c715a56da27d-WGL-wegland_4-00000004",
+          "new": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_5-00000005",
-          "new": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "old": "11-d43593c715a56da27d-WGL-wegland_5-00000005",
+          "new": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_6-00000006",
-          "new": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "old": "11-d43593c715a56da27d-WGL-wegland_6-00000006",
+          "new": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         },
         {
           "field": "owner",
-          "old": "18-d43593c715a56da27d-WGL-wegland_7-00000007",
-          "new": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+          "old": "11-d43593c715a56da27d-WGL-wegland_7-00000007",
+          "new": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
           "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-          "block": 32,
+          "block": 25,
           "opType": "SEND"
         }
       ],
@@ -1011,91 +779,33 @@
       "resources": [
         {
           "pending": false,
-          "id": "u7VnYH_w",
+          "id": "LpOrQCwL",
           "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "5ZV9TCc9",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "-jm0ORn0",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "YvDUYV2v",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "un8lfkbz",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "3gUISylD",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "tFc_yLLB",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
-          "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
-        },
-        {
-          "pending": false,
-          "id": "6ftRSRKz",
-          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1.svg",
-          "slot": "base-3-WGLBS.wegland_objectBackground",
+          "slot": "base-2-WGLBS.wegland_objectBackground",
           "thumb": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/Wegland Items/bg1_thumb.png"
         }
       ],
-      "block": 29,
+      "block": 22,
       "collection": "d43593c715a56da27d-WGLITMS",
       "symbol": "wegland_background",
       "transferable": 1,
       "sn": "00000005",
       "metadata": "ipfs://ipfs/bafkreicvwvvefezhayphhollcjabq7ub6qcwfej5bikf4j5pzoa6kpguo4",
-      "priority": [
-        "u7VnYH_w",
-        "5ZV9TCc9",
-        "-jm0ORn0",
-        "YvDUYV2v",
-        "un8lfkbz",
-        "3gUISylD",
-        "tFc_yLLB",
-        "6ftRSRKz"
-      ],
-      "owner": "18-d43593c715a56da27d-WGL-wegland_8-00000008",
+      "priority": ["LpOrQCwL"],
+      "owner": "11-d43593c715a56da27d-WGL-wegland_8-00000008",
       "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "reactions": {},
       "forsale": "0",
       "burned": "",
       "properties": {},
       "pending": false,
-      "id": "29-d43593c715a56da27d-WGLITMS-wegland_background-00000005"
+      "id": "22-d43593c715a56da27d-WGLITMS-wegland_background-00000005"
     }
   },
   "collections": {
     "d43593c715a56da27d-WGL": {
       "changes": [],
-      "block": 14,
+      "block": 6,
       "max": 10000,
       "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "symbol": "WGL",
@@ -1104,7 +814,7 @@
     },
     "d43593c715a56da27d-WGLITMS": {
       "changes": [],
-      "block": 25,
+      "block": 18,
       "max": 9999,
       "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
       "symbol": "WGLITMS",
@@ -1113,9 +823,9 @@
     }
   },
   "bases": {
-    "base-3-WGLBS": {
+    "base-2-WGLBS": {
       "changes": [],
-      "block": 3,
+      "block": 2,
       "symbol": "WGLBS",
       "type": "svg",
       "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
@@ -1343,66 +1053,9 @@
           "z": 8
         }
       ],
-      "id": "base-3-WGLBS"
+      "id": "base-2-WGLBS"
     }
   },
-  "invalid": [
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    },
-    {
-      "op_type": "EQUIP",
-      "block": 32,
-      "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
-      "object_id": "RMRK::EQUIP::2.0.0::29-d43593c715a56da27d-WGLITMS-wegland_shield-00000002::base-3-WGLBS.wegland_objectLeft ",
-      "message": "[EQUIP] Dead before instantiation: At path: baseslot -- Expected the value to satisfy a union of `string | string`, but received: \"base-3-WGLBS.wegland_objectLeft \""
-    }
-  ],
-  "lastBlock": 38
+  "invalid": [],
+  "lastBlock": 33
 }

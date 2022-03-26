@@ -1,0 +1,240 @@
+{
+  "nfts": {},
+  "collections": {},
+  "bases": {
+    "base-4-WGLBS": {
+      "changes": [],
+      "block": 4,
+      "symbol": "WGLBS",
+      "type": "svg",
+      "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+      "parts": [
+        {
+          "type": "fixed",
+          "id": "wegland_body_1",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v1/b1.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_2",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v2/b2.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_3",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v3/b3.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_4",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v4/b4.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_5",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v5/b5.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_6",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v6/b6.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_7",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v7/b7.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_body_8",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v8/b8.svg",
+          "z": 1
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_1",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v1/e1.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_2",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v2/e2.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_3",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v3/e3.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_4",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v4/e4.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_5",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v5/e1.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_6",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v6/e2.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_7",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v7/e3.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_eyes_8",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v8/e4.svg",
+          "z": 2
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_1",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v1/m1.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_2",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v2/m2.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_3",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v3/m3.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_4",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v4/m4.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_5",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v5/m1.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_6",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v6/m2.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_7",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v7/m3.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "wegland_mouth_8",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v8/m4.svg",
+          "z": 3
+        },
+        {
+          "type": "fixed",
+          "id": "text_1",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v1/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_2",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v2/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_3",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v3/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_4",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v4/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_5",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v5/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_6",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v6/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_7",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v7/text.svg",
+          "z": 4
+        },
+        {
+          "type": "fixed",
+          "id": "text_8",
+          "src": "ipfs://ipfs/Qmao1EERMzZJt5dyESE7GFzkJ1aahUCSX338248HzdVJjB/v8/text.svg",
+          "z": 4
+        },
+        {
+          "type": "slot",
+          "id": "wegland_objectBackground",
+          "equippable": ["d43593c715a56da27d-WGLITMS"],
+          "z": 0
+        },
+        {
+          "type": "slot",
+          "id": "wegland_objectLeft",
+          "equippable": ["d43593c715a56da27d-WGLITMS"],
+          "z": 6
+        },
+        {
+          "type": "slot",
+          "id": "wegland_objectRight",
+          "equippable": ["d43593c715a56da27d-WGLITMS"],
+          "z": 7
+        },
+        {
+          "type": "slot",
+          "id": "wegland_objectTop",
+          "equippable": ["d43593c715a56da27d-WGLITMS"],
+          "z": 5
+        },
+        {
+          "type": "slot",
+          "id": "wegland_objectBottom",
+          "equippable": ["d43593c715a56da27d-WGLITMS"],
+          "z": 8
+        }
+      ],
+      "id": "base-4-WGLBS"
+    }
+  },
+  "invalid": [],
+  "lastBlock": 5
+}

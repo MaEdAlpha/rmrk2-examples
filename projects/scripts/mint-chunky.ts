@@ -12,8 +12,8 @@ import { pinSingleMetadataFromDir } from "./pinata-utils";
 import { nanoid } from "nanoid";
 
 export const addBaseResource = async (
-  chunkyBlock: number,
-  baseBlock: number
+  chunkyBlock: number, //31
+  baseBlock: number //4
 ) => {
   try {
     console.log("ADD BASE RESOURCE TO MONSTERA NFT START -------");
